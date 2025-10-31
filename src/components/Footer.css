@@ -1,0 +1,142 @@
+.footer {
+  background-color: var(--color-bg-secondary);
+  border-top: 1px solid var(--color-bg-tertiary);
+  padding: var(--spacing-lg) 0;
+  margin-top: var(--spacing-3xl);
+  position: relative;
+  z-index: 10;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+  font-size: var(--font-size-xs);
+  font-family: var(--font-mono);
+}
+
+.footer-terminal {
+  display: flex;
+  align-items: center;
+}
+
+.terminal-prompt {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.terminal-symbol {
+  color: var(--color-accent-primary);
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0%, 49% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0.3;
+  }
+}
+
+.terminal-text {
+  color: var(--color-text-secondary);
+}
+
+.footer-love {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--color-text-muted);
+}
+
+.love-text {
+  font-size: var(--font-size-xs);
+}
+
+.love-heart {
+  color: var(--color-accent-primary);
+  font-size: var(--font-size-sm);
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  10%, 30% {
+    transform: scale(1.1);
+  }
+  20%, 40% {
+    transform: scale(1);
+  }
+}
+
+.footer-credit {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--color-text-muted);
+}
+
+.credit-text {
+  font-size: var(--font-size-xs);
+}
+
+.credit-link {
+  color: var(--color-accent-primary);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.credit-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--color-accent-primary);
+  transition: width 0.2s ease;
+}
+
+.credit-link:hover {
+  color: var(--color-accent-hover);
+}
+
+.credit-link:hover::after {
+  width: 100%;
+}
+
+.credit-separator {
+  color: var(--color-accent-primary);
+  font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--spacing-sm);
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: var(--spacing-md) 0;
+  }
+  
+  .footer-content {
+    font-size: 10px;
+  }
+  
+  .terminal-symbol {
+    font-size: var(--font-size-xs);
+  }
+}
