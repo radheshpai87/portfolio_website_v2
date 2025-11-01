@@ -17,7 +17,7 @@ const Header = () => {
       <div className="container">
         <nav className="nav">
           <div className="nav-brand">
-            <span className="terminal-prompt">&gt;</span> <a href='#hero'>radz.dev</a>
+            <span className="terminal-prompt">&gt;</span> <a href='#hero'>radz.is-a.dev</a>
           </div>
           
           <button 
