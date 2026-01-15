@@ -4,7 +4,7 @@ A modern, minimalist personal portfolio website inspired by Monkeytype's termina
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Production%20Ready-00d26a?style=for-the-badge)
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 This portfolio adopts a **terminal-first aesthetic** that combines:
 - **Pure black backgrounds** (#000000) for maximum contrast
@@ -13,9 +13,9 @@ This portfolio adopts a **terminal-first aesthetic** that combines:
 - **Minimalist card-based layouts** for clean content presentation
 - **Smooth scroll-triggered animations** for engaging user experience
 
-## ✨ Features
+## Features
 
-### 🎯 Core Sections
+### Core Sections
 - **Hero Section**: Dynamic introduction with animated terminal window
 - **Projects**: Showcase portfolio with featured project badges and tech stacks
 - **About**: Personal story with interactive code snippet and statistics
@@ -23,15 +23,15 @@ This portfolio adopts a **terminal-first aesthetic** that combines:
 - **Contact**: Functional contact form with social media links
 - **Resume**: Timeline-based experience display with downloadable PDF
 
-### 🚀 Technical Highlights
-- ✅ **Fully Responsive** - Mobile-first design approach
-- ✅ **WCAG AA Compliant** - High contrast ratios for accessibility
-- ✅ **Performance Optimized** - Lightweight with smooth 60fps animations
-- ✅ **SEO Friendly** - Semantic HTML structure
-- ✅ **Modern React Patterns** - Custom hooks and component composition
-- ✅ **Vanilla CSS** - No dependencies, pure CSS power
+### Technical Highlights
+- **Fully Responsive** - Mobile-first design approach
+- **WCAG AA Compliant** - High contrast ratios for accessibility
+- **Performance Optimized** - Lightweight with smooth 60fps animations
+- **SEO Friendly** - Semantic HTML structure
+- **Modern React Patterns** - Custom hooks and component composition
+- **Vanilla CSS** - No dependencies, pure CSS power
 
-## 🎨 Design System
+## Design System
 
 ### Color Palette
 ```css
@@ -66,7 +66,7 @@ This portfolio adopts a **terminal-first aesthetic** that combines:
 - **Base**: 250ms - Standard transitions
 - **Slow**: 400ms - Section reveals
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 19.1.1
 - **Build Tool**: Vite 7.1.7
@@ -74,7 +74,7 @@ This portfolio adopts a **terminal-first aesthetic** that combines:
 - **Icons**: Emoji (for universal compatibility)
 - **Fonts**: Google Fonts (JetBrains Mono)
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -96,7 +96,7 @@ npm run build
 npm run preview
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 personal_portfolio_v2/
@@ -130,7 +130,7 @@ personal_portfolio_v2/
 └── vite.config.js
 ```
 
-## 🎯 Customization Guide
+## Customization Guide
 
 ### 1. Personal Information
 Update these files with your information:
@@ -159,7 +159,7 @@ Change the font in `src/index.css`:
 }
 ```
 
-## 🌟 Key Components
+## Key Components
 
 ### useScrollAnimation Hook
 Custom React hook for scroll-triggered animations:
@@ -185,7 +185,7 @@ Consistent card design across sections:
 - Hover: Accent color border + glow effect
 - Transition: Transform translateY(-4px to -8px)
 
-## 🎨 Design Patterns
+## Design Patterns
 
 ### Terminal Aesthetic Elements
 1. **Prompt Symbols**: `> ` prefix for titles and interactive elements
@@ -208,7 +208,7 @@ Consistent card design across sections:
 - 60fps performance target
 - Reduced motion support
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 ```css
 /* Tablet: 968px */
@@ -227,7 +227,7 @@ Consistent card design across sections:
 }
 ```
 
-## 🚀 Performance Optimization
+## Performance Optimization
 
 - **CSS Variables**: Centralized design tokens
 - **Vanilla CSS**: No CSS-in-JS overhead
@@ -236,7 +236,7 @@ Consistent card design across sections:
 - **Code Splitting**: React lazy() for heavy components
 - **Minimal Dependencies**: Reduced bundle size
 
-## 📝 SEO Considerations
+## SEO Considerations
 
 - Semantic HTML5 elements
 - Descriptive meta tags in `index.html`
@@ -245,23 +245,23 @@ Consistent card design across sections:
 - Descriptive link text
 - Structured data (JSON-LD) - Add as needed
 
-## 🔧 Browser Support
+## Browser Support
 
 - Chrome/Edge (latest)
 - Firefox (latest)
 - Safari (latest)
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 ---
 
-**Built with ❤️ and ☕ using React + Vite**
+**Built with React + Vite**
 
-**⭐ If you like this portfolio template, please give it a star!**
+**If you like this portfolio template, please give it a star!**
